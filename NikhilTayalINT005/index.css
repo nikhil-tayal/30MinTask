@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 450px;
+    overflow: hidden;
+    margin: 60px auto;
+}
+.container .box{
+    float: left;
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 200%;
+    text-align: center;
+}
+.container .box:hover{
+    background: green;
+}
