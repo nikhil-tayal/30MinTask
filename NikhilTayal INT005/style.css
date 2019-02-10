@@ -1,0 +1,60 @@
+td{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Niramit', sans-serif;
+}
+body{
+    width: 1000px;
+    margin: 20px auto;
+}
+.container{
+    margin: 20px auto;
+
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+    /*    font-family: 'IBM Plex Mono', monospace;*/
+    /*    font-family: 'Hammersmith One', sans-serif;*/
+}
+a{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 64px;
+    width: 233px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 42px;
+    display: block;
+    text-decoration: none;
+    border: 3px solid grey;
+    text-align: center;
+    padding-top: 4px;
+    color: black;
+    background-color: grey;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 20px;
+}
+input{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 240px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 25px;
+    display: block;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Hammersmith One', sans-serif;
+}

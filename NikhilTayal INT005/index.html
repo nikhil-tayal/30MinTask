@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Hammersmith+One|IBM+Plex+Mono|Niramit" rel="stylesheet">
+        <script
+                src="http://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous"></script>
+
+        <title>Document</title>
+    </head>
+    <body onLoad="newGame();">
+        <div class="container">
+            <table class="container">
+                <h2>THE TIC TAC TOE GAME</h2>
+                <p id="Message">Message Here</p>
+                <tr>
+                    <td class="cell1" id="box1" onClick="nextTurn(this)"></td>
+                    <td class="cell1" id="box2" onClick="nextTurn(this)"></td>
+                    <td class="cell1" id="box3" onClick="nextTurn(this)"></td>
+                </tr>
+                <tr>
+                    <td class="cell1" id="box4" onClick="nextTurn(this)"></td>
+                    <td class="cell1" id="box5" onClick="nextTurn(this)"></td>
+                    <td class="cell1" id="box6" onClick="nextTurn(this)"></td>
+                </tr>
+                <tr>
+                    <td class="cell1" id="box7" onClick="nextTurn(this)"></td>
+                    <td class="cell1" id="box8" onClick="nextTurn(this)"></td>
+                    <td class="cell1" id="box9" onClick="nextTurn(this)"></td>
+                </tr>
+            </table>
+<!--            <input type="submit" value="New Game" onclick="restart()">-->
+                        <a href="javascript: newGame();">New Game</a>
+            <input type="submit" onclick="SubmitData()" value="Submit Progress">
+        </div>
+
+
+    </body>
+    <script src="index.js"></script>
+
+</html>
